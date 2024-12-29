@@ -25,6 +25,7 @@ body span {
     z-index: 1000;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 50px;
 }
 
 .navbar ul {
@@ -47,7 +48,8 @@ body span {
 }
 
 .logo {
-    width: 100px;
+    width: auto;
+    height: 40px;
 }
 
 /* Section Styling */
@@ -81,13 +83,10 @@ section {
     border-style: groove;
     width: 140px;
     height: 150px;
-    transform: rotate(1deg); /* Rotate image 15 degrees */
-    transition: transform 0.5s ease; /* Add a smooth transition */
+    
 }
 
-#home img:hover {
-    transform: rotate(-36deg); /* Rotate image 360 degrees when hovered */
-}
+
 
 
 #home a {
@@ -125,7 +124,10 @@ section {
     border-color: red;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
+    
 }
+
+
 
 #projects p {
     text-align: center;
